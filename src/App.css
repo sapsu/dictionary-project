@@ -2,7 +2,14 @@
   margin: 40px;
 }
 .App-main {
-  background-color: lightgreen;
+  background-image: linear-gradient(
+      rgba(247, 239, 229, 0.8),
+      rgba(247, 239, 229, 0.9)
+    ),
+    url("images/dictionary.jpg");
+  background-size: cover;
+  background-position: center;
+
   border-radius: 5px;
 }
 .App-footer {
