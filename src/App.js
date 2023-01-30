@@ -9,10 +9,12 @@ function App() {
         <header className="App-header text-center">
           <img src={dictionary} alt="" width="200" />
         </header>
-        <main>
+        <main className="App-main">
           <Dictionary />
         </main>
-        <footer className="footer text-center">Coded by Saana Ahonen</footer>
+        <footer className="App-footer text-center">
+          Coded by Saana Ahonen
+        </footer>
       </div>
     </div>
   );

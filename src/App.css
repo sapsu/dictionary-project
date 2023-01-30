@@ -1,7 +1,11 @@
 .App-header {
   margin: 40px;
 }
-.footer {
+.App-main {
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+.App-footer {
   margin: 40px;
   font-size: 12px;
 }
