@@ -1,19 +1,27 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import dictionary from "./images/dictionary.jpg";
+import book from "./images/book.jpg";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header text-center">
-          <img src={dictionary} alt="" width="200" />
+          <img src={book} alt="book" id="book" />
         </header>
         <main className="App-main">
           <Dictionary />
         </main>
         <footer className="App-footer text-center">
-          Coded by Saana Ahonen
+          <a
+            href="https://github.com/sapsu/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-sourced code
+          </a>
+          {` `}
+          by Saana Ahonen
         </footer>
       </div>
     </div>
