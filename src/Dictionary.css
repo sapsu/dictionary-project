@@ -4,9 +4,13 @@
 .Dictionary section {
   background-color: #f7f7f7;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 45px;
   margin: 10px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.Dictionary h2 {
+  font-size: 24px;
+  margin: 20px 0;
 }
 .Dictionary .btn-bd-primary {
   background-color: #5f1854;
@@ -15,4 +19,16 @@
 .Dictionary .btn-bd-primary:hover {
   background-color: #3b0944;
   color: white;
+}
+
+@media (max-width: 900px) {
+  .Dictionary {
+    padding: 20px;
+  }
+  .Dictionary section {
+    padding: 20px;
+  }
+  .Dictionary h2 {
+    font-size: 20px;
+  }
 }

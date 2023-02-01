@@ -32,20 +32,20 @@ export default function Dictionary(props) {
 
   if (loaded) {
     return (
-      <div className="Dictionary">
+      <div className="Dictionary container-fluid">
         <section>
-          <h1 className="text-center mb-4">Dictionary</h1>
+          <h2>What word would you like to search?</h2>
           <form className="row text-center mb-4" onSubmit={handleSubmit}>
             <input
               type="search"
-              placeholder="Search for a word"
-              className="col form-control ms-5"
+              placeholder="Search for any word"
+              className="col form-control ms-2"
               onChange={handleKeywordChange}
             />
             <input
               type="submit"
               value="Search"
-              className="col-2 btn btn-bd-primary ms-2 me-5"
+              className="col-2 btn btn-bd-primary ms-1 me-2"
             />
           </form>
         </section>

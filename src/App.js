@@ -1,16 +1,17 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import book from "./images/book.jpg";
+import logo from "./images/logo.png";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header text-center">
-          <img src={book} alt="book" id="book" />
+          <img src={logo} alt="logo" id="logo" />
+          <h1 className="text-center mb-4">Dictionary</h1>
         </header>
         <main className="App-main">
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="day" />
         </main>
         <footer className="App-footer text-center">
           <a

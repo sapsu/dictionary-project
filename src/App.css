@@ -5,6 +5,10 @@
 .App-header {
   margin: 20px;
 }
+.App-header h1 {
+  font-size: 36px;
+  color: #3b0944;
+}
 .container {
   background-image: linear-gradient(
     rgba(247, 247, 247, 0.8),
@@ -26,7 +30,7 @@
 .App-footer a:hover {
   text-decoration: underline;
 }
-#book {
+#logo {
   border-radius: 5px;
-  width: 200px;
+  width: 100px;
 }
