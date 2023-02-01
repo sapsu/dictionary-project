@@ -10,7 +10,7 @@ function App() {
           <img src={book} alt="book" id="book" />
         </header>
         <main className="App-main">
-          <Dictionary />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer text-center">
           <a
