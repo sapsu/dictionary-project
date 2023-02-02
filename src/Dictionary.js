@@ -3,6 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import { Search } from "react-bootstrap-icons";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -53,15 +54,17 @@ export default function Dictionary(props) {
           <form className="row text-center mb-4" onSubmit={handleSubmit}>
             <input
               type="search"
-              placeholder="Search for any word"
+              placeholder="Type any word"
               className="col form-control ms-2"
               onChange={handleKeywordChange}
             />
-            <input
+            <button
               type="submit"
-              value="Search"
-              className="col-2 btn btn-bd-primary ms-1 me-2"
-            />
+              className="col-1 btn btn-bd-primary
+              ms-1 me-2"
+            >
+              <Search className="text-center mb-1" />
+            </button>
           </form>
         </section>
         <Results results={results} />

@@ -17,7 +17,7 @@
 }
 .App-footer {
   margin: 20px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .App-footer a {
   text-decoration: none;
@@ -29,4 +29,12 @@
 #logo {
   border-radius: 5px;
   width: 100px;
+}
+@media (max-width: 900px) {
+  .App-header {
+    margin: 10px;
+  }
+  .App-header h1 {
+    font-size: 24px;
+  }
 }
